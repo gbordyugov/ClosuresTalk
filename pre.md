@@ -19,7 +19,7 @@ add5(2)   # => 7
 add13(13) # => 26
 ~~~
   
-Pervasive: R, Python, JavaScript, ...
+Pervasive: R, Python, JavaScript, ..., Clojure
 
 Fifty years old, originating in APL and Lisp
 
