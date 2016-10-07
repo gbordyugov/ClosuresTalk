@@ -106,7 +106,7 @@ myDer = makeDerivative(myBigFunction)
 # ...
 ~~~
 
-- Here, we capture rather a _function_ (the one to be differentiated
+- Here, we capture rather a _function_ (the one to be differentiated)
 than a _state_
 
 # Memoizing/Caching Functions
