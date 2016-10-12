@@ -96,7 +96,7 @@ rhs2(x1, t1)
 ~~~{.python .numberLines}
 def makeDerivative(f, h=0.001):
   def derivative(x):
-    return (f(x+h/2.0) - f(x+h/2.0))/h
+    return (f(x+h/2.0) - f(x-h/2.0))/h
   return derivative
 
 dsin = makeDerivative(sin);
